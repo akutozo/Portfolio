@@ -8,6 +8,6 @@ My porgramming roots begin with MYSQL and PHP, when I ran small game called Lege
 
 I firmly believe that all problems have solutions and my hope this portfolio provides a small window into my mind, an example of my work and reveals a passionate, capable candidate worth investing in.
 
-# Made With:
+# Built By:
 
 React
