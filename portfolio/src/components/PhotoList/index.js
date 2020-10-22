@@ -11,19 +11,29 @@ const PhotoList = ({ category }) => {
             name: 'Horiseon Landing Page',
             category: 'projects',
             description: 'A basic website layout for a fictional company.',
-            url: 'https://github.com/akutozo/Horiseon',
+            url: 'https://akutozo.github.io/Horiseon/#search-engine-optimization',
+            repo: 'https://github.com/akutozo/Horiseon',
         },
         {
             name: 'Run Buddy Landing Page',
             category: 'projects',
             description: 'A basic website layout for a fictional company.',
-            url: 'https://github.com/akutozo/run-buddy-2.0',
+            url: 'https://akutozo.github.io/run-buddy/',
+            repo: 'https://github.com/akutozo/run-buddy',
         },
         {
             name: 'The Speakeasy',
             category: 'projects',
-            description: 'An online social club for those who wish to discuss their favorite drinks.',
+            description: 'A callaboration project building an online social club for those who wish to discuss their favorite drinks.',
             url: 'https://fierce-forest-64673.herokuapp.com/',
+            repo: 'https://github.com/adamkeyser45/thespeakeasy',
+        },
+        {
+            name: 'Weather Now',
+            category: 'projects',
+            description: 'A basic application for weather tracking.',
+            url: 'https://akutozo.github.io/weather-now/',
+            repo: 'https://github.com/akutozo/weather-now',
         },
     ]);
 
