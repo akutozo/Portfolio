@@ -13,6 +13,10 @@ function App() {
     {
       name: 'projects',
       description: 'Examples of past and current projects',
+    },
+    {
+      name: 'resume',
+      description: 'Please feel free to look over my history of work.',
     }
   ]);
 

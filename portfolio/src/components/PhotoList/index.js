@@ -17,6 +17,11 @@ const PhotoList = ({ category }) => {
             category: 'projects',
             description: 'A basic website layout for a fictional company.',
         },
+        {
+            name: 'The Speakeasy',
+            category: 'projects',
+            description: 'An online social club for those who wish to discuss their favorite drinks.',
+        },
     ]);
 
     const currentPhotos = photos.filter((photo) => photo.category === category);
