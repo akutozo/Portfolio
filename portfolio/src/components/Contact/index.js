@@ -30,6 +30,7 @@ function ContactForm() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
+
   }
 
     return (
@@ -38,15 +39,15 @@ function ContactForm() {
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">Name:</label>
-              <input type="text" defaultValue={name} onChange={handleChange} name="name" />
+              <input type="text" defaultValue={name} onChange={handleChange} name="name" required aria-required="true"/>
             </div>
             <div>
               <label htmlFor="email">Email address:</label>
-              <input type="email" defaultValue={email} name="email" onChange={handleChange} />
+              <input type="email" defaultValue={email} name="email" onChange={handleChange} required aria-required="true"/>
             </div>
             <div>
               <label htmlFor="message">Message:</label>
-              <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
+              <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" required aria-required="true"/>
             </div>
             <button type="submit">Submit</button>
           </form>

@@ -5,11 +5,16 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
   const [categories] = useState([
+    {
+      name: '',
+      description: '',
+    },
     {
       name: 'projects',
       description: 'Examples of past and current projects',
@@ -41,6 +46,7 @@ function App() {
 ) : (
     <ContactForm></ContactForm>
   )}
+  <Footer />
         </div>
       </main>
     </div>

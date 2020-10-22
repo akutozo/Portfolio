@@ -7,7 +7,9 @@ function Modal({ onClose, currentPhoto }) {
         <div className="modalBackdrop">
           <div className="modalContainer">
             <h3 className="modalTitle">{name}</h3>
+            <a href="https://github.com/akutozo?tab=repositories">
             <img src={require(`../../assets/large/${category}/${index}.jpg`)} alt="current category" />
+            </a>
             <p>{description}</p>
             <button onClick={onClose} type="button">Close this modal</button>
             

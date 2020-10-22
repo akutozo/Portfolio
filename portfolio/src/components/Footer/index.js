@@ -7,10 +7,10 @@ function Footer() {
     return (
         <footer>
             <a className="footerLink" href="https://github.com/akutozo">
-                <img src={githubLogo} alt="githubprofile" style={{ width: "20%" }}/>
+                <img src={githubLogo} alt="githubprofile" style={{ width: "14%" }}/>
             </a>
             <a className="footerLink" href="https://www.linkedin.com/in/jacobdaughtry/">
-                <img src={linkedinLogo} alt="linkedinprofile" style={{ width: "20%" }}/>
+                <img src={linkedinLogo} alt="linkedinprofile" style={{ width: "10%" }}/>
             </a>
         </footer>
     )

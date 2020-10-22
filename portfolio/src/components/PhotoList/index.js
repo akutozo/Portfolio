@@ -11,16 +11,19 @@ const PhotoList = ({ category }) => {
             name: 'Horiseon Landing Page',
             category: 'projects',
             description: 'A basic website layout for a fictional company.',
+            url: 'https://github.com/akutozo/Horiseon',
         },
         {
             name: 'Run Buddy Landing Page',
             category: 'projects',
             description: 'A basic website layout for a fictional company.',
+            url: 'https://github.com/akutozo/run-buddy-2.0',
         },
         {
             name: 'The Speakeasy',
             category: 'projects',
             description: 'An online social club for those who wish to discuss their favorite drinks.',
+            url: 'https://fierce-forest-64673.herokuapp.com/',
         },
     ]);
 
