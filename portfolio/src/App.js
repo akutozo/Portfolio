@@ -11,10 +11,9 @@ function App() {
 
   const [categories] = useState([
     {
-      name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
-    },
-    // { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+      name: 'projects',
+      description: 'Examples of past and current projects',
+    }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

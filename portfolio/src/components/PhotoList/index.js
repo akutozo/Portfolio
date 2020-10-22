@@ -9,12 +9,12 @@ const PhotoList = ({ category }) => {
     const [photos] = useState([
         {
             name: 'Grocery aisle',
-            category: 'commercial',
+            category: 'projects',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
         {
             name: 'Grocery booth',
-            category: 'commercial',
+            category: 'projects',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
     ]);
