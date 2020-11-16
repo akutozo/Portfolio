@@ -12,8 +12,8 @@ function App() {
 
   const [categories] = useState([
     {
-      name: '',
-      description: '',
+      name: 'About Me',
+      description: ' ',
     },
     {
       name: 'projects',
@@ -30,12 +30,12 @@ function App() {
   return (
     <div>
       <Nav
-  categories={categories}
-  setCurrentCategory={setCurrentCategory}
-  currentCategory={currentCategory}
-  contactSelected={contactSelected}
-  setContactSelected={setContactSelected}
-></Nav>
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Nav>
       <main>
         <div>
         {!contactSelected ? (

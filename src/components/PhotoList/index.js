@@ -8,6 +8,20 @@ const PhotoList = ({ category }) => {
 
     const [photos] = useState([
         {
+            name: 'Idols Initiatives',
+            category: 'projects',
+            description: 'A charity focused project focused on bringing awareness to celebrity efforts in their local communities.',
+            url: 'https://radiant-temple-46938.herokuapp.com/',
+            repo: 'https://github.com/taylornyquist/idols-initiatives',
+        },
+        {
+            name: 'The Speakeasy',
+            category: 'projects',
+            description: 'A callaboration project building an online social club for those who wish to discuss their favorite drinks.',
+            url: 'https://fierce-forest-64673.herokuapp.com/',
+            repo: 'https://github.com/adamkeyser45/thespeakeasy',
+        },
+        {
             name: 'Horiseon Landing Page',
             category: 'projects',
             description: 'A basic website layout for a fictional company.',
@@ -20,13 +34,6 @@ const PhotoList = ({ category }) => {
             description: 'A basic website layout for a fictional company.',
             url: 'https://akutozo.github.io/run-buddy/',
             repo: 'https://github.com/akutozo/run-buddy',
-        },
-        {
-            name: 'The Speakeasy',
-            category: 'projects',
-            description: 'A callaboration project building an online social club for those who wish to discuss their favorite drinks.',
-            url: 'https://fierce-forest-64673.herokuapp.com/',
-            repo: 'https://github.com/adamkeyser45/thespeakeasy',
         },
         {
             name: 'Weather Now',

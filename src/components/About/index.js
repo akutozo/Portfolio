@@ -8,7 +8,6 @@ import aboutme2 from "../../assets/cover/about-me-photo2.jpg";
 function About() {
   return (
     <section className="my-5">
-  <h1 id="about">About Jacob Daughtry</h1>
   <img src={aboutme1} className="my-2" style={{ width: "35%" }} alt="cover" />
   <img src={aboutme2} className="my-2" style={{ width: "35%" }} alt="cover" />
   <p>My programming roots begin with MYSQL and PHP, when I ran small game 
